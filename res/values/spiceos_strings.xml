@@ -158,4 +158,11 @@
     <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
     <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
 
+    <!-- Buttons title -->
+    <string name="volume_category">Volume Rocker</string>
+
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
 </resources>
