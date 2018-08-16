@@ -160,4 +160,8 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
     <string name="theme_customization_device_default">Device default</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+
 </resources>
