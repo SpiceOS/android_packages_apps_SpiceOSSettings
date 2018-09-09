@@ -71,4 +71,9 @@
     <string name="recents_title">Recents Apps</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifications</string>
+
+    <!-- AOSP Gestures -->
+    <string name="aosp_gesture_preference">System settings</string>
+    <string name="aosp_gesture_summary">Stock gestures included with AOSP</string>
+
 </resources>
