@@ -96,4 +96,8 @@
     <string name="volte_icon_miui">MiUi Icons</string>
     <string name="volte_icon_emui">EMUI Icons</string>
 
+    <!-- AOSP Gestures -->
+    <string name="aosp_gesture_preference">System settings</string>
+    <string name="aosp_gesture_summary">Stock gestures included with AOSP</string>
+
 </resources>
