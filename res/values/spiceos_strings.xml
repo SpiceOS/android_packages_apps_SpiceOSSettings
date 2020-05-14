@@ -17,7 +17,46 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="spiceos_settings_title">SpiceOS Settings</string>
+    <string name="spiceos_settings_devtitle">SpiceOS</string>
     <string name="spiceos_dashboard_summary">Our Farmland.</string>
+
+    <!-- ROM Info -->
+    <string name="spiceos_about_info">About Project</string>
+    <string name="spiceos_about_info_summary_title">About Team</string>
+    <string name="spiceos_about_info_summary">Just a Spiced up AOSP ROM</string>
+
+    <!-- Dev Info -->
+    <string name="devs_header">Family Members</string>
+    <string name="dev_1">Mohammed Althaf</string>
+    <string name="dev_1_git" translatable="false">althafvly</string>
+    <string name="dev1_description">Lead Developer</string>
+    <string name="dev_2">Anush Madathumkara</string>
+    <string name="dev_2_git" translatable="false">Anush02198</string>
+    <string name="dev2_description">Co-Lead Developer</string>
+    <string name="dev_3">Jijin Raj</string>
+    <string name="dev_3_git" translatable="false">jijinraj</string>
+    <string name="dev3_description">Core Developer</string>
+    <string name="dev_4">Ashwin A.S</string>
+    <string name="dev_4_git" translatable="false">aswin7469</string>
+    <string name="dev4_description">Core Developer</string>
+    <string name="dev_5">Suneesh S</string>
+    <string name="dev_5_git" translatable="false">kalmin06</string>
+    <string name="dev5_description">Core Developer</string>
+
+    <!-- Mentions -->
+    <string name="mentions_header">Honorable Mentions</string>
+    <string name="mentions_designer">Deepansh Pandey</string>
+    <string name="mentions_designer_git" translatable="false">deepanshpandey</string>
+    <string name="mentions_designer_description">Designer</string>
+
+    <!-- Maintainer Info -->
+    <string name="maintainers_header">Maintainers</string>
+    <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
+    <string name="device_xiaomi">Xiaomi</string>
+    <string name="device_jasmine">Xiaomi Mi A2</string>
+    <string name="device_jasmine_description">jasmine_sprout\nAnush02198</string>
+    <string name="device_mojito">Redmi Note 10</string>
+    <string name="device_mojito_description">mojito\nAnush02198</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
