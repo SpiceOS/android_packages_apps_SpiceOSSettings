@@ -233,4 +233,7 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
 
+    <!-- Customisation -->
+    <string name="customisation_title">Monet Customisation</string>
+
 </resources>

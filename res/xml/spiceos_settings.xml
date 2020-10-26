@@ -20,6 +20,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/spiceos_settings_title" >
 
+        <!-- Customization -->
+        <com.spiceos.settings.preferences.CardviewPreference
+            android:key="customisation"
+            android:fragment="com.spiceos.settings.fragments.Customisation"
+            android:icon="@drawable/ic_customisation"
+            android:title="@string/customisation_title" />
+
         <!-- Status Bar -->
         <com.spiceos.settings.preferences.CardviewPreference
             android:key="statusbar_category"
