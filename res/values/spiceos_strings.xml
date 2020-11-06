@@ -143,6 +143,13 @@
     <string name="status_bar_battery_percentage_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_default">Hidden (default)</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+
+    <!-- General category -->
+    <string name="general_category">General</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
 
 </resources>
