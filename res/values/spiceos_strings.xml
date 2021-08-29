@@ -87,4 +87,13 @@
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 
+    <!-- VoLTE Icon Type -->
+    <string name="volte_icon_style_title">Select VoLTE/HD Icon</string>
+    <string name="volte_icon_volte">VoLTE Icon</string>
+    <string name="volte_icon_oos">VoLTE OnePlus Icon</string>
+    <string name="volte_icon_default">Default-Dynamic Icons</string>
+    <string name="volte_icon_hd">HD Icons</string>
+    <string name="volte_icon_miui">MiUi Icons</string>
+    <string name="volte_icon_emui">EMUI Icons</string>
+
 </resources>
