@@ -74,6 +74,7 @@
     <string name="recents_title">Recents Apps</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifications</string>
+    <string name="dtts_category_header">Double tap to sleep</string>
 
     <!-- AOSP Gestures -->
     <string name="aosp_gesture_preference">System settings</string>
@@ -229,4 +230,8 @@
     <string name="fprint_success_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_success_vib_summary">Vibrate on successful fingerprint authentication</string>
 
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">Statusbar</string>
+    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    
 </resources>
