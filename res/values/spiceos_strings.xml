@@ -86,7 +86,7 @@
     <string name="general_category">General</string>
     <string name="statusbar_icons">Icons</string>
     <string name="lockscreen_ui_gestures_category">Lockscreen UI Gestures Category</string>
-    <string name="power_key">Power</string>    
+    <string name="power_key">Power</string>
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
@@ -124,4 +124,20 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
     <string name="torch_power_button_gesture_lp">Long press power button</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Brightness slider</string>
+    <string name="qs_brightness_slider_title">Show brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_brightness_position_bottom_title">Show brightness slider on bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Adaptive brightness button</string>
+    <string name="brightness_icon_summary">Show adaptive brightness button</string>
+
+    <!-- Quick QS Panel brightness slider -->
+    <string name="quick_qs_brightness_slider_title">Show brightness slider in Quick QS Panel</string>
+    <string name="quick_qs_brightness_slider_summary">Show a brightness slider in the quick qs panel</string>
+
 </resources>
