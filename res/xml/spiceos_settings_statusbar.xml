@@ -43,6 +43,12 @@
              android:defaultValue="0"/>
 
          <Preference
+            android:key="battery_styles_category"
+            android:fragment="com.spiceos.settings.fragments.BatterySettings"
+            android:summary="@string/battery_style_category_summary"
+            android:title="@string/battery_style_category_title" />
+
+         <Preference
             android:key="traffic"
             android:fragment="com.spiceos.settings.fragments.Traffic"
             android:title="@string/traffic_title" />
