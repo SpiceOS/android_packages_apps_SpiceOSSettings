@@ -209,4 +209,17 @@
     <string name="volume_rocker_music_controls_title">Music control</string>
     <string name="volume_rocker_music_controls_summary">Long press volume buttons to switch tracks while screen off</string>
 
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
+    <string name="vowifi_icon_disabled">Disabled</string>
+    <string name="vowifi_icon_default">Default</string>
+    <string name="vowifi_icon_asus">Asus VoWiFi Icon</string>
+    <string name="vowifi_icon_oneplus">OnePlus VoWiFi Icon</string>
+    <string name="vowifi_icon_moto">Moto VoWiFi Icons</string>
+    <string name="vowifi_icon_emui">EMUI Icons</string>
+    <string name="vowifi_icon_oneplus_compact">OnePlus Compact</string>
+    <string name="vowifi_icon_vivo">Vivo VoWiFi Icons</string>
+    <string name="vowifi_icon_margaritov">Margaritov VoWiFi Icons</string>
+
 </resources>
