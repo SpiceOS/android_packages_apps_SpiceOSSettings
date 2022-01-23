@@ -13,7 +13,16 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/recents_title"
+    android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <com.spiceos.support.preferences.SystemSettingListPreference
+        android:key="torch_power_button_gesture"
+        android:dialogTitle="@string/torch_power_button_gesture_title"
+        android:title="@string/torch_power_button_gesture_title"
+        android:summary="%s"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values"
+        android:defaultValue="0" />
 
 </PreferenceScreen>
