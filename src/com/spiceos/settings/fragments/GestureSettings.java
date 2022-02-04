@@ -37,13 +37,13 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
 
-public class RecentsSettings extends SettingsPreferenceFragment implements
+public class GestureSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.spiceos_settings_recents);
+        addPreferencesFromResource(R.xml.spiceos_settings_gestures);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
     }
