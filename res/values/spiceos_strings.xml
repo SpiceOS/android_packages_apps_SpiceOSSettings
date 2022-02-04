@@ -24,6 +24,7 @@
     <string name="spiceos_about_info">About Project</string>
     <string name="spiceos_about_info_summary_title">About Team</string>
     <string name="spiceos_about_info_summary">Just a Spiced up AOSP ROM</string>
+    <string name="spice_it_up">#spiceItUp\ntweak your happiness</string>
 
     <!-- Dev Info -->
     <string name="devs_header">Family Members</string>
