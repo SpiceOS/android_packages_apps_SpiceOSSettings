@@ -56,26 +56,35 @@ public class SpiceOSSettings extends SettingsPreferenceFragment {
 
          Calendar c = Calendar.getInstance();
          int hours = c.get(Calendar.HOUR_OF_DAY);
-         ImageView root = (ImageView) getView().findViewById(R.id.spiceos_vibes);
+         // ImageView root = (ImageView) getView().findViewById(R.id.spiceos_vibes);
+         ImageView TopGreetings = (ImageView) getView().findViewById(R.id.spiceos_vibes);
+         // View root =(ImageView) findViewById(R.id.spiceos_settings.xml);
+         View root = findViewById((R.xml.spiceos_settings));
 
          if(hours>=5 && hours<=11){
 
-               root.setBackground(getResources().getDrawable(R.drawable.morning));
+               // root.setBackground(getResources().getDrawable(R.drawable.morning));
+               TopGreetings.setImageResource(R.drawable.morning);
+
          } else if(hours>=12 && hours<=15){
 
-             root.setBackground(getResources().getDrawable(R.drawable.afternoon));
+             // root.setBackground(getResources().getDrawable(R.drawable.afternoon));
+             TopGreetings.setImageResource(R.drawable.afternoon);
 
          } else if(hours>=16 && hours<=20){
 
-             root.setBackground(getResources().getDrawable(R.drawable.evening));
+             // root.setBackground(getResources().getDrawable(R.drawable.evening));
+             TopGreetings.setImageResource(R.drawable.evening);
 
          } else if(hours>=21 && hours<=23){
 
-             root.setBackground(getResources().getDrawable(R.drawable.night));
+             // root.setBackground(getResources().getDrawable(R.drawable.night));
+             TopGreetings.setImageResource(R.drawable.night);
 
          } else if(hours>=0 && hours<=4){
 
-             root.setBackground(getResources().getDrawable(R.drawable.night));
+             // root.setBackground(getResources().getDrawable(R.drawable.night));
+             TopGreetings.setImageResource(R.drawable.sleep);
 
          }
      }

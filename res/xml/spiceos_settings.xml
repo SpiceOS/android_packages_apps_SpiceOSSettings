@@ -105,5 +105,6 @@
             android:fragment="com.android.settings.custom.SpiceOSDevsInfoFragment"
             android:icon="@drawable/ic_spiceos_about"/>
 
+        <Preference android:layout="@layout/divider" />
 
 </PreferenceScreen>
