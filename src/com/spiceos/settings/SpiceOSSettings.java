@@ -17,6 +17,12 @@
 package com.spiceos.settings;
 
 import android.os.Bundle;
+import java.util.Calendar;
+import android.content.res.Resources;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
@@ -32,10 +38,47 @@ public class SpiceOSSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.spiceos_settings);
+        goodVibesPlease();
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SPICEOS_SETTINGS;
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        goodVibesPlease();
+    }
+
+    private void goodVibesPlease(){
+
+         Calendar c = Calendar.getInstance();
+         int hours = c.get(Calendar.HOUR_OF_DAY);
+         ImageView root = (ImageView) getView().findViewById(R.id.spiceos_vibes);
+
+         if(hours>=5 && hours<=11){
+
+               root.setBackground(getResources().getDrawable(R.drawable.morning));
+         } else if(hours>=12 && hours<=15){
+
+             root.setBackground(getResources().getDrawable(R.drawable.afternoon));
+
+         } else if(hours>=16 && hours<=20){
+
+             root.setBackground(getResources().getDrawable(R.drawable.evening));
+
+         } else if(hours>=21 && hours<=23){
+
+             root.setBackground(getResources().getDrawable(R.drawable.night));
+
+         } else if(hours>=0 && hours<=4){
+
+             root.setBackground(getResources().getDrawable(R.drawable.night));
+
+         }
+     }
+
+
 }
