@@ -61,6 +61,7 @@
     <string name="device_mojito_description">mojito\nAnush02198</string>
 
     <!-- Categories -->
+    <string name="general_category">General</string>    
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock Screen</string>
@@ -79,4 +80,8 @@
     <!-- Navigation -->
     <string name="system_navigation_summary">Configure navigation menus</string>
 
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    
 </resources>
