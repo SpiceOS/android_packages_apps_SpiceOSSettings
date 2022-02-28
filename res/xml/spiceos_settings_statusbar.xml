@@ -43,7 +43,7 @@
 
          <com.spiceos.support.preferences.SystemSettingListPreference
              android:key="volte_icon_style"
-             android:dependency="volte_vowifi_override"             
+             android:dependency="volte_vowifi_override"
              android:title="@string/volte_icon_style_title"
              android:entries="@array/volte_icon_type_entries"
              android:entryValues="@array/volte_icon_type_values"
@@ -63,6 +63,12 @@
             android:fragment="com.spiceos.settings.fragments.BatterySettings"
             android:summary="@string/battery_style_category_summary"
             android:title="@string/battery_style_category_title" />
+
+        <Preference
+    	      android:key="clock_settings"
+            android:title="@string/clocksettings_title"
+            android:summary="@string/clocksettings_summary"
+            android:fragment="com.spiceos.settings.preferences.datetime.ClockSettings" />
 
          <Preference
             android:key="traffic"
