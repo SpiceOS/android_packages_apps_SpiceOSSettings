@@ -85,6 +85,7 @@
     <!-- General category -->
     <string name="general_category">General</string>
     <string name="statusbar_icons">Icons</string>
+    <string name="lockscreen_ui_gestures_category">Lockscreen UI Gestures Category</string>
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
@@ -102,5 +103,9 @@
     <!-- Ambient music ticker -->
     <string name="pulse_on_new_tracks_title">Music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+
+    <!-- Double tap lock screen to sleep -->
+    <string name="dt2s_lockscreen_title">DT2S on lock screen</string>
+    <string name="dt2s_lockscreen_summary">Double-tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
 
 </resources>
