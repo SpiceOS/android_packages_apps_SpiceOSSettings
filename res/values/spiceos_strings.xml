@@ -263,6 +263,10 @@
     <string name="lockscreen_solid_lines_category">Solid Lines</string>
     <string name="lockscreen_solid_units_count_title">Lines count</string>
     <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
-    <string name="lockscreen_solid_units_opacity_title">Lines opacity</string>    
+    <string name="lockscreen_solid_units_opacity_title">Lines opacity</string>
+  
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
 
 </resources>
