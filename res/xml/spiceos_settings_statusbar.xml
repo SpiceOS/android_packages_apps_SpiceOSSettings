@@ -51,21 +51,11 @@
         android:summary="@string/data_disabled_icon_summary"
         android:defaultValue="true"/>
 
-        </PreferenceCategory>
+     <com.spiceos.support.preferences.SystemSettingSwitchPreference
+        android:key="roaming_indicator_icon"
+        android:title="@string/roaming_indicator_icon_title"
+        android:summary="@string/roaming_indicator_icon_summary"
+        android:defaultValue="true"/>
 
-    <PreferenceCategory
-        android:key="icons_category"
-        android:title="@string/statusbar_icons">
-
-	<Preference
-            android:key="systemui_tuner_statusbar"
-            android:title="@string/statusbar_items_title"
-            android:summary="@string/statusbar_items_summary" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-        </Preference>
-
-        </PreferenceCategory>
-
+    </PreferenceCategory>
 </PreferenceScreen>
