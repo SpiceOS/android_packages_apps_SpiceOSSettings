@@ -68,13 +68,20 @@
             android:fragment="com.spiceos.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Recents -->
+        <!-- Gestures -->
         <com.spiceos.settings.preferences.CardviewPreference
             android:key="gestures_category"
             android:layout="@layout/card_view_pref_top"
             android:title="@string/gestures_title"
             android:fragment="com.spiceos.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
+
+        <!-- Customization -->
+        <com.spiceos.settings.preferences.CardviewPreference
+            android:key="customisation"
+            android:fragment="com.spiceos.settings.fragments.Customisation"
+            android:icon="@drawable/ic_customisation"
+            android:title="@string/customisation_title" />
 
         <!-- Notifications -->
         <com.spiceos.settings.preferences.CardviewPreference

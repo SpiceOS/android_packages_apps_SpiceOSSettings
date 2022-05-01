@@ -87,6 +87,7 @@
     <string name="general_category">General</string>
     <string name="extra_category">Extra</string>
     <string name="statusbar_icons">Icons</string>
+    <string name="customisation_title">Customisation</string>
     <string name="lockscreen_ui_gestures_category">Lockscreen UI Gestures Category</string>
     <string name="power_key">Power</string>
 
