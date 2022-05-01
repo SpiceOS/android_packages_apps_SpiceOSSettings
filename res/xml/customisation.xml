@@ -16,4 +16,18 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/customisation_title">
 
+
+    <PreferenceCategory
+        android:key="theme_customization_category"
+        android:title="@string/theme_customization_category">
+
+        <!-- Monet -->
+        <Preference
+            android:key="monet_settings"
+            android:title="@string/monet_engine_settings_title"
+            android:summary="@string/monet_engine_settings_summary"
+            android:fragment="com.spiceos.settings.fragments.MonetSettings" />
+
+    </PreferenceCategory>
+    
 </PreferenceScreen>

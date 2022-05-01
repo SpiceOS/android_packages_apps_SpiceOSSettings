@@ -88,6 +88,7 @@
     <string name="extra_category">Extra</string>
     <string name="statusbar_icons">Icons</string>
     <string name="customisation_title">Customisation</string>
+    <string name="theme_customization_category">Theming</string>
     <string name="lockscreen_ui_gestures_category">Lockscreen UI Gestures Category</string>
     <string name="power_key">Power</string>
 
@@ -290,5 +291,16 @@
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+
+    <!-- Monet engine -->
+    <string name="monet_engine_settings_title">Monet engine</string>
+    <string name="monet_engine_settings_summary"> Adjust accent color, colorfulness and brightness</string>
+    <string name="accurate_shades_title">Use accurate shades</string>
+    <string name="use_wallpaper_color_title">Use wallpaper color</string>
+    <string name="color_override_title">Accent color picker</string>
+    <string name="color_override_summary">Choose a custom accent color to override the colors chosen by monet engine</string>
+    <string name="chroma_factor_title">Colorfulness</string>
+    <string name="linear_lightness_title">Use a custom lightness scale</string>
+    <string name="white_luminance_title">Brightness</string>
 
 </resources>
