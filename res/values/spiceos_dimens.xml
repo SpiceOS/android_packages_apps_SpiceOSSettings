@@ -17,6 +17,7 @@
 <resources>
 
     <!-- Custom preference cardView -->
+    <dimen name="card_elevation">2dp</dimen>
     <dimen name="card_view_start_padding">20dp</dimen>
     <dimen name="card_view_end_padding">20dp</dimen>
     <dimen name="card_view_start_margin">15dp</dimen>

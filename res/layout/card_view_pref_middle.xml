@@ -28,14 +28,12 @@
             android:id="@android:id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <TextView
             android:id="@android:id/summary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textColor="@color/off_black"/>
+            android:layout_marginTop="5dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     android:layout_height="@dimen/card_height_settings"
     android:layout_marginStart="@dimen/card_view_start_margin"
     android:layout_marginEnd="@dimen/card_view_end_margin"
-    android:background="@drawable/card_view_bg_top"
+    android:background="@drawable/card_view_bg_spiceos"
     android:paddingStart="@dimen/card_view_start_padding"
     android:paddingEnd="@dimen/card_view_end_padding">
 
