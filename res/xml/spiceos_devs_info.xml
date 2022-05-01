@@ -20,17 +20,45 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/spiceos_settings_devtitle">
 
-<PreferenceCategory
+
+    <PreferenceCategory
               android:key="about"
               android:title="@string/spiceos_about_info" >
 
+    <Preference
+        android:summary="@string/spiceos_about_info_summary"
+        android:layout="@layout/card_view_pref_top"
+        android:icon="@drawable/ic_devs_info" >
+        <intent
+            android:action="android.intent.action.VIEW" />
+    </Preference>
+
         <Preference
-               android:summary="@string/spiceos_about_info_summary"
-               android:icon="@drawable/ic_devs_info" >
+               android:summary="Based On Android 13"
+               android:layout="@layout/card_view_pref_middle"
+               android:icon="@drawable/android" >
         <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://paypal.me/Anush02198?locale.x=en_GB" />
+               android:data="https://github.com/SpiceOS-Beta/" />
         </Preference>
+
+    <Preference
+        android:summary="Our Telegram Community"
+        android:layout="@layout/card_view_pref_middle"
+        android:icon="@drawable/telegram" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/SpiceOS-Beta/" />
+    </Preference>
+
+    <Preference
+        android:summary="SpiceOS Source"
+        android:layout="@layout/card_view_pref_bottom"
+        android:icon="@drawable/github" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/SpiceOS-Beta/" />
+    </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -40,7 +68,8 @@
         <Preference
             android:key="dev1"
             android:title="@string/dev_1"
-            android:icon="@drawable/ic_code"
+            android:layout="@layout/card_view_pref_top"
+            android:icon="@drawable/ic_devs_mention"
             android:summary="@string/dev1_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -50,7 +79,8 @@
         <Preference
             android:key="dev2"
             android:title="@string/dev_2"
-            android:icon="@drawable/ic_code"
+            android:layout="@layout/card_view_pref_middle"
+            android:icon="@drawable/ic_devs_mention"
             android:summary="@string/dev2_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -60,7 +90,8 @@
         <Preference
             android:key="dev3"
             android:title="@string/dev_3"
-            android:icon="@drawable/ic_code"
+            android:layout="@layout/card_view_pref_middle"
+            android:icon="@drawable/ic_devs_mention"
             android:summary="@string/dev3_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -70,7 +101,8 @@
         <Preference
             android:key="dev4"
             android:title="@string/dev_4"
-            android:icon="@drawable/ic_code"
+            android:layout="@layout/card_view_pref_middle"
+            android:icon="@drawable/ic_devs_mention"
             android:summary="@string/dev4_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -80,28 +112,24 @@
         <Preference
             android:key="dev8"
             android:title="@string/dev_5"
-            android:icon="@drawable/ic_code"
+            android:layout="@layout/card_view_pref_middle"
+            android:icon="@drawable/ic_devs_mention"
             android:summary="@string/dev5_description" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/kalmin06" />
         </Preference>
 
-</PreferenceCategory>
-
-<PreferenceCategory
-    android:key="honorable_mentions"
-    android:title="@string/mentions_header">
-
-        <Preference
-            android:key="mentions_designer"
-            android:title="@string/mentions_designer"
-            android:icon="@drawable/ic_devs_mention"
-            android:summary="@string/mentions_designer_description" >
+    <Preference
+        android:key="mentions_designer"
+        android:title="@string/mentions_designer"
+        android:layout="@layout/card_view_pref_bottom"
+        android:icon="@drawable/ic_devs_mention"
+        android:summary="@string/mentions_designer_description" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/coffeeinacafe" />
-        </Preference>
+    </Preference>
 
 </PreferenceCategory>
 
@@ -109,38 +137,17 @@
             android:key="maintainer"
             android:title="@string/maintainers_header" >
 
-        <Preference
-            android:summary="@string/maintainers_header_summary"
-            android:icon="@drawable/ic_devs_info" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://github.com/SpiceOS-Beta/" />
-        </Preference>
-
 </PreferenceCategory>
 
-<PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_xiaomi" >
-
-    <Preference
-        android:title="@string/device_jasmine"
-        android:summary="@string/device_jasmine_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/Anush02198" />
-    </Preference>
 
     <Preference
         android:title="@string/device_mojito"
+        android:layout="@layout/card_view_pref_bottom"
         android:summary="@string/device_mojito_description"
         android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Anush02198" />
     </Preference>
-
-</PreferenceCategory>
 
 </PreferenceScreen>

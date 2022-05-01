@@ -20,86 +20,109 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/spiceos_settings_title" >
 
+<!--    <Preference-->
+<!--        android:summary="@string/spiceos_surprise"-->
+<!--        android:layout="@layout/card_view_pref_spiceos"-->
+<!--        android:icon="@drawable/ic_devs_info" >-->
+<!--        <intent-->
+<!--            android:action="android.intent.action.VIEW" />-->
+<!--    </Preference>-->
+<!--    <Preference android:layout="@layout/divider" android:order="-155"/>-->
+
         <!-- Status Bar -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="statusbar_category"
             android:layout="@layout/card_view_pref_top"
             android:title="@string/statusbar_title"
+            android:order="-150"
             android:fragment="com.spiceos.settings.fragments.StatusbarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
 
         <!-- Quick Settings panel -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="quicksettings_category"
             android:layout="@layout/card_view_pref_middle"
             android:title="@string/quicksettings_title"
+            android:order="-140"
             android:fragment="com.spiceos.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="buttonsettings_category"
             android:layout="@layout/card_view_pref_bottom"
             android:title="@string/button_title"
+            android:order="-130"
             android:fragment="com.spiceos.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
+      <Preference android:layout="@layout/divider" android:order="-125"/>
+
         <!-- Navigation Bar -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="navigationbar_category"
             android:layout="@layout/card_view_pref_top"
             android:title="@string/navbar_title"
+            android:order="-120"
             android:fragment="com.spiceos.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Lock Screen -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="lockscreen_category"
             android:layout="@layout/card_view_pref_middle"
             android:title="@string/lockscreen_title"
+            android:order="-110"
             android:fragment="com.spiceos.settings.fragments.LockscreenSettings"
             android:icon="@drawable/ic_settings_lockscreen"/>
 
         <!-- Power Menu -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="powermenu__category"
             android:layout="@layout/card_view_pref_bottom"
             android:title="@string/powermenu_title"
+            android:order="-100"
             android:fragment="com.spiceos.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Recents -->
-        <com.spiceos.settings.preferences.CardviewPreference
+      <Preference android:layout="@layout/divider" android:order="-95"/>
+
+        <!-- Gestures -->
+        <Preference
             android:key="gestures_category"
             android:layout="@layout/card_view_pref_top"
             android:title="@string/gestures_title"
+            android:order="-90"
             android:fragment="com.spiceos.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Notifications -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="notifications_category"
             android:layout="@layout/card_view_pref_middle"
             android:title="@string/notifications_title"
+            android:order="-80"
             android:fragment="com.spiceos.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
+      <Preference android:layout="@layout/divider" android:order="-75"/>
+
         <!-- Misc -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="misc_category"
             android:layout="@layout/card_view_pref_bottom"
             android:title="@string/misc_title"
+            android:order="-70"
             android:fragment="com.spiceos.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_misc"/>
 
         <!-- About Devs -->
-        <com.spiceos.settings.preferences.CardviewPreference
+        <Preference
             android:key="dev_info"
             android:title="@string/spiceos_about_info"
             android:summary="@string/spiceos_about_info_summary_title"
+            android:order="-60"
             android:fragment="com.android.settings.custom.SpiceOSDevsInfoFragment"
             android:icon="@drawable/ic_spiceos_about"/>
-
-        <Preference android:layout="@layout/divider" />
 
 </PreferenceScreen>
