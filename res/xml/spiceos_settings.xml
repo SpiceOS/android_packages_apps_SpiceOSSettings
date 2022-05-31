@@ -29,9 +29,9 @@
 <!--    </Preference>-->
 <!--    <Preference android:layout="@layout/divider" android:order="-155"/>-->
 
-        <!-- Status Bar -->
+        <!-- Status Bar key:statusbar_category-->
         <Preference
-            android:key="statusbar_category"
+            android:key="card_top"
             android:layout="@layout/card_view_pref_top"
             android:title="@string/statusbar_title"
             android:order="-150"
@@ -40,7 +40,7 @@
 
         <!-- Quick Settings panel -->
         <Preference
-            android:key="quicksettings_category"
+            android:key="card_middle"
             android:layout="@layout/card_view_pref_middle"
             android:title="@string/quicksettings_title"
             android:order="-140"
@@ -49,18 +49,16 @@
 
         <!-- Buttons -->
         <Preference
-            android:key="buttonsettings_category"
+            android:key="card_bottom"
             android:layout="@layout/card_view_pref_bottom"
             android:title="@string/button_title"
             android:order="-130"
             android:fragment="com.spiceos.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
-      <Preference android:layout="@layout/divider" android:order="-125"/>
-
         <!-- Navigation Bar -->
         <Preference
-            android:key="navigationbar_category"
+            android:key="card_top"
             android:layout="@layout/card_view_pref_top"
             android:title="@string/navbar_title"
             android:order="-120"
@@ -69,7 +67,7 @@
 
         <!-- Lock Screen -->
         <Preference
-            android:key="lockscreen_category"
+            android:key="card_middle"
             android:layout="@layout/card_view_pref_middle"
             android:title="@string/lockscreen_title"
             android:order="-110"
@@ -78,18 +76,16 @@
 
         <!-- Power Menu -->
         <Preference
-            android:key="powermenu__category"
+            android:key="card_bottom"
             android:layout="@layout/card_view_pref_bottom"
             android:title="@string/powermenu_title"
             android:order="-100"
             android:fragment="com.spiceos.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-      <Preference android:layout="@layout/divider" android:order="-95"/>
-
         <!-- Gestures -->
         <Preference
-            android:key="gestures_category"
+            android:key="card_top"
             android:layout="@layout/card_view_pref_top"
             android:title="@string/gestures_title"
             android:order="-90"
@@ -98,18 +94,16 @@
 
         <!-- Notifications -->
         <Preference
-            android:key="notifications_category"
+            android:key="card_bottom"
             android:layout="@layout/card_view_pref_middle"
             android:title="@string/notifications_title"
             android:order="-80"
             android:fragment="com.spiceos.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
-      <Preference android:layout="@layout/divider" android:order="-75"/>
-
         <!-- Misc -->
         <Preference
-            android:key="misc_category"
+            android:key="card_top"
             android:layout="@layout/card_view_pref_bottom"
             android:title="@string/misc_title"
             android:order="-70"
@@ -118,9 +112,8 @@
 
         <!-- About Devs -->
         <Preference
-            android:key="dev_info"
+            android:key="card_bottom"
             android:title="@string/spiceos_about_info"
-            android:summary="@string/spiceos_about_info_summary_title"
             android:order="-60"
             android:fragment="com.android.settings.custom.SpiceOSDevsInfoFragment"
             android:icon="@drawable/ic_spiceos_about"/>
