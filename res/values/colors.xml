@@ -6,4 +6,5 @@
     <color name="card_view_spice">?android:attr/colorControlNormal</color>
     <color name="black">#FAFAFA</color>
     <color name="off_black">#90FAFAFA</color>
+    <color name="spiceos_settings_card_bg">@android:color/system_neutral1_800</color>
 </resources>

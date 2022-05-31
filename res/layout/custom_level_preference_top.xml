@@ -6,7 +6,7 @@
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
     android:layout_marginBottom="0.5dp"
-    android:background="@drawable/custom_preference_middle_background"
+    android:background="@drawable/custom_preference_top_background"
     android:paddingEnd="15dp"
     android:paddingStart="25dp">
 
@@ -39,7 +39,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:singleLine="true"
-            android:textColor="?android:attr/textColorSecondary"/>
+            android:singleLine="true"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
