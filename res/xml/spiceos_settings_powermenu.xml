@@ -21,7 +21,7 @@
         android:key="advanced_reboot"
         android:title="@string/global_actions_advanced_reboot_title"
         android:summary="@string/global_actions_advanced_reboot_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.spiceos.support.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_power_menu_disabled"

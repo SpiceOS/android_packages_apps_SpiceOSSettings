@@ -20,7 +20,7 @@
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"
         android:summary="@string/notification_sound_vib_screen_on_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.spiceos.support.preferences.SystemSettingSwitchPreference
         android:key="less_boring_heads_up"
