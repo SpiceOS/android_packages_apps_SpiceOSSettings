@@ -385,4 +385,8 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
 
+	<!-- Notification count -->
+    <string name="status_bar_notif_count_title">Show notifications count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
 </resources>
