@@ -49,6 +49,12 @@
         android:summary="@string/network_traffic_summary"
         android:fragment="com.spiceos.settings.fragments.NetworkTrafficSettings" />
 
+    <Preference
+        android:key="battery_styles_category"
+        android:fragment="com.spiceos.settings.fragments.BatterySettings"
+        android:title="@string/battery_settings_title"
+        android:summary="@string/battery_style_category_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
