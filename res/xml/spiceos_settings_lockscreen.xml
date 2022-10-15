@@ -25,6 +25,12 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+     <Preference
+        android:key="pulse_settings"
+        android:fragment="com.spiceos.settings.fragments.PulseSettings"
+        android:title="@string/pulse_settings"
+        android:summary="@string/pulse_settings_summary" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -74,7 +80,7 @@
             android:key="udfps_settings"
             android:title="@string/udfps_settings_title"
             android:summary="@string/udfps_settings_summary"
-            android:fragment="com.superior.lab.fragments.UdfpsSettings" />
+            android:fragment="com.spiceos.settings.fragments.UdfpsSettings" />
 
     </PreferenceCategory>
 </PreferenceScreen>
