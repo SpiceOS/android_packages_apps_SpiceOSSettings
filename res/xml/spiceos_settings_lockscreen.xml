@@ -22,4 +22,10 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+     <Preference
+        android:key="pulse_settings"
+        android:fragment="com.spiceos.settings.fragments.PulseSettings"
+        android:icon="@drawable/ic_pulse"
+        android:title="@string/pulse_settings" />
+
 </PreferenceScreen>
