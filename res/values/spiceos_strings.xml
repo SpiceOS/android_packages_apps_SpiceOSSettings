@@ -65,6 +65,7 @@
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock Screen</string>
+    <string name="fingerprint_category">Fingerprint</string>    
     <string name="misc_title">Miscellaneous</string>
     <string name="navbar_title">Navigation Bar</string>
     <string name="powermenu_title">Power Menu</string>
@@ -221,5 +222,11 @@
     <string name="pulse_empty_block_size">Block spacing</string>
     <string name="pulse_solid_units_rounded_title">Solid lines rounded</string>
     <string name="pulse_solid_units_rounded_summary">Round the solid lines</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_error_vib_title">Fingerprint error vibration</string>
+    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
+    <string name="fprint_success_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_success_vib_summary">Vibrate on successful fingerprint authentication</string>
 
 </resources>
