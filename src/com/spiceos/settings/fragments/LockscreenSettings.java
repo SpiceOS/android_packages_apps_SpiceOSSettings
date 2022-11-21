@@ -35,6 +35,8 @@ import android.view.ViewGroup;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.spiceos.udfps.UdfpsUtils;
+
 
 import com.android.settings.R;
 
@@ -43,10 +45,12 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
 
     private static final String FINGERPRINT_SUCCESS_VIB = "fingerprint_success_vib";
     private static final String FINGERPRINT_ERROR_VIB = "fingerprint_error_vib";
+    private static final String UDFPS_CATEGORY = "udfps_category";
 
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintSuccessVib;
     private SwitchPreference mFingerprintErrorVib;
+    private PreferenceCategory mUdfpsCategory;    
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,7 +81,11 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(mFingerprintSuccessVib);
             prefSet.removePreference(mFingerprintErrorVib);
         }        
+    mUdfpsCategory = findPreference(UDFPS_CATEGORY);
+    if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
+        prefSet.removePreference(mUdfpsCategory);
     }
+}
 
     @Override
     public int getMetricsCategory() {
