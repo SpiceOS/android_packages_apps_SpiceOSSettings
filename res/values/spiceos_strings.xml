@@ -261,4 +261,8 @@
     <string name="volume_rocker_wake_title">Volume wake</string>
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
 
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
+
 </resources>
