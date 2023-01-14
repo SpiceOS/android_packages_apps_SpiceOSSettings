@@ -92,29 +92,39 @@
             android:fragment="com.spiceos.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
 
+        <!-- Themes -->
+        <Preference
+            android:key="card_middle"
+            android:layout="@layout/card_view_pref_middle"
+            android:title="@string/themes_title"                      
+            android:order="-80"
+            android:fragment="com.spiceos.settings.fragments.ThemesSettings"            
+            android:icon="@drawable/ic_customisation"/>
+
         <!-- Notifications -->
         <Preference
             android:key="card_bottom"
-            android:layout="@layout/card_view_pref_middle"
+            android:layout="@layout/card_view_pref_bottom"
             android:title="@string/notifications_title"
-            android:order="-80"
+            android:order="-70"
             android:fragment="com.spiceos.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Misc -->
         <Preference
             android:key="card_top"
-            android:layout="@layout/card_view_pref_bottom"
+            android:layout="@layout/card_view_pref_top"
             android:title="@string/misc_title"
-            android:order="-70"
+            android:order="-60"
             android:fragment="com.spiceos.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_misc"/>
 
         <!-- About Devs -->
         <Preference
             android:key="card_bottom"
+            android:layout="@layout/card_view_pref_bottom"            
             android:title="@string/spiceos_about_info"
-            android:order="-60"
+            android:order="-50"
             android:fragment="com.android.settings.custom.SpiceOSDevsInfoFragment"
             android:icon="@drawable/ic_spiceos_about"/>
 
