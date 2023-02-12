@@ -38,6 +38,8 @@ import com.android.settings.R;
 
 public class MiscSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+    // private static final String TAG = "System";
+    private static final String SMART_PIXELS = "smart_pixels";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,8 +47,20 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.spiceos_settings_misc);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        updateSmartPixelsPreference();
     }
 
+    private void updateSmartPixelsPreference() {
+        PreferenceScreen prefSet = getPreferenceScreen();
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_supportSmartPixels);
+        Preference smartPixels = findPreference(SMART_PIXELS);
+
+        if (!enableSmartPixels){
+            prefSet.removePreference(smartPixels);
+        }
+    }
+    
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SPICEOS_SETTINGS;
