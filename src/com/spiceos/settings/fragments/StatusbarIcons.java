@@ -57,6 +57,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.bumptech.glide.Glide;
 
+import com.android.internal.util.spiceos.SpiceOSUtils;
 import com.android.internal.util.spiceos.ThemeUtils;
 
 import java.util.ArrayList;
@@ -251,6 +252,7 @@ public class StatusbarIcons extends SettingsPreferenceFragment {
         for (String pkg: mThemeUtils.getOverlayPackagesForCategory(category, target)) {
             if (pkg.contains(pattern)) {
                 mThemeUtils.setOverlayEnabled(category, pkg, target);
+                SpiceOSUtils.showSystemUiRestartDialog(getContext());
             }
         }
     }
